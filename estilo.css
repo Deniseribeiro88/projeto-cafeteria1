@@ -1,0 +1,319 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img-logo {
+    background-image: url(imagem/logo.png);
+    margin-right: 65%;
+    margin-top: 35px;
+    padding-bottom: 50px;
+    width: 58px;
+    height: 60px;
+}
+
+.topo {
+    
+        background-color:rgb(97, 73, 41); 
+        border: 2px solid rgb(97, 73, 41); /* Adicione sua configuração de borda aqui */
+        padding: 20px; /* Adicione preenchimento se necessário */
+        display: flex;
+        flex-direction: column; /* Define a direção do flex como coluna */
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        text-align: center; /* Centraliza o texto horizontalmente */
+        height: 30px; /* Defina a altura desejada para a div com borda */
+        
+}
+nav{
+    margin-top: -68px;
+    text-shadow: 5px 5px 3px  black;/* sombra no texto*/
+    padding-top: 10px;
+}
+
+
+a, ul {
+    font-size: 16px;
+    font-family: 'oswald';
+    text-decoration: none;
+    text-align: justify;
+    margin-right: 20px;
+    color: #c4a47c;
+    text-shadow: 3px 3px 10px 3px black; /* Corrigi a sintaxe da sombra no texto */
+    
+}
+
+
+
+.link-topo {
+    margin-left: 60%;
+    display: inline-flex;
+    list-style: none;
+    font-family: 'oswald', bold;
+    
+}
+
+.scroll-to-top {
+    background-attachment: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll-to-top a {
+    text-decoration: none;
+}
+
+.scroll-to-top img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    /* Mantive o display: none, mas você pode controlar a exibição com JavaScript */
+}
+
+.sidebar {
+    position: fixed;
+   right: 50px;
+   bottom: 50px;
+}
+
+#banner {
+    background-image: url(imagem/parallax-imagem1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    box-sizing: border-box;
+    margin-top: -60x;
+    width: 100%;
+    height: auto;
+    padding-top: 60px; /* Adicione um espaço superior de 30px */
+    padding-bottom: 30px; /* Adicione um espaço inferior de 30px */
+}
+
+
+.h1-img {
+    font-family: 'fraunces';
+    font-size: 80px;
+    text-align: center;
+    left: 10%;
+    padding-top: 20%;
+    color: white;
+    width: 100%;
+}
+
+.h3-inform {
+    text-align: center;
+    color: #c4a47c;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.paragrafo-config {
+    text-align: center;
+    margin-top: 15px;
+}
+#corpo {
+    background-image: url(imagem/parallax-imagem2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+   
+}
+.h2-corpo{
+    text-align: center;
+    color: #c4a47c;
+    padding-top: 80px;
+    font-size: 20px; 
+}
+.h3-corpo {
+    background-color: rgb(95, 71, 41);
+    border: 2px solid rgb(95, 71, 41);
+    color: white;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    max-width: 70%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 80px; /* Adicione um espaço inferior de 15px */
+}
+.paragrafo-corpo{
+    text-align: center;
+    margin-bottom:-60px;
+    padding-bottom:30px ;
+    font-family: latto;
+
+}
+#main {
+    background-image: url(imagem/parallax-imagem3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 200px;
+    width: 100%;
+    height:160px;
+    padding-bottom: 0;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 200px; /* Adicione essa propriedade para criar espaço abaixo da seção */
+}
+
+.h2-main {
+    font-size: 20px; /* Tamanho da fonte */
+    color: #c4a47c; /* Cor do texto */
+    text-align: center; /* Alinhamento de texto */
+    font-family: 'oswald'; /* Tipo de fonte */
+  
+    
+}
+
+
+.h3-main {
+    background-color: rgb(95, 71, 41);
+    border: 2px solid rgb(95, 71, 41);
+    color: white;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    max-width: 70%;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.paragrafo-main {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-family: latto;
+        
+    
+    
+}
+
+#contatos {
+    background-image: url(imagem/parallax-imagem4.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: 0;
+    width: 100%;
+    height: 900px;
+    padding-top: 0; /* Adicione um espaço superior de 30px */
+    padding-bottom: 0; /* Adicione um espaço inferior de 30px */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.h2-contatos {
+    background-color: rgb(95, 71, 41);
+    border: 2px solid rgb(95, 71, 41);
+    
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 15px; /* Adicione espaço horizontal*/ 
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    margin-top: 30px; /* Remova a margem superior */
+    margin-bottom: 15px; /* Adicione um espaço inferior de 15px */
+    margin-left:500px;
+    margin-right: 500px;
+    max-width: 70%;
+}
+
+.box{
+    background-color: rgb(95, 71, 41);
+    color: white;
+    margin-left: 300px; /* Afasta da borda esquerda */
+    margin-right: 300px; /* Afasta da borda direita */ 
+    text-align: center; 
+    padding: 15px 35px;
+    margin-top: 35px;
+}
+.box a{
+    color: white;
+}
+
+#horarios{
+    background-image: url(imagem/cafeteria.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px;
+    margin-top: 0;
+    
+}
+.h2-horarios{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-right: 60px;
+    color: white;
+}
+/* Estilo para o contêiner de duas colunas */
+.h2-horarios{
+    margin-bottom: 100px;
+    font-family: 'oswald';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.lista-horarios{
+    list-style-type: none;
+}
+
+/* Estilo para a linha tracejada horizontal */
+#linha{
+   width: 400px;height: 0.5px;
+   border: 1px solid white;
+
+}
+.item{
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'latto';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.fechado{
+   
+    color: #c4a47c;
+}
+footer{
+    text-align: center;
+}
+.autor{
+    color: #c4a47c;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;1,9..144,100&family=Lato:wght@100&display=swap');
+
+/* Adicione margem inferior aos títulos e parágrafos dentro das seções de parallax */
+
